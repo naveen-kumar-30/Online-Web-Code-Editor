@@ -1,0 +1,35 @@
+:root {
+    --judge0-blue: #2B3A8F;
+    --judge0-cyan: #00BDD2;
+    --judge0-pink: #ED2079;
+    --judge0-violet: #5F3282;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+
+.judge0-gradient {
+    background: var(--judge0-cyan) !important;
+    background: linear-gradient(45deg, var(--judge0-cyan) 0%, var(--judge0-blue) 40%, var(--judge0-violet) 70%, var(--judge0-pink) 100%) !important;
+}
+
+#site-header {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+#site-logo {
+    width: 5rem;
+}
+
+#site-footer, .lm_tab {
+    font-family: "JetBrains Mono" !important;
+}
+
+.lm_tab {
+    box-shadow: none !important;
+}
