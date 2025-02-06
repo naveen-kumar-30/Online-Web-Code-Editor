@@ -7,15 +7,15 @@ const AUTH_HEADERS = API_KEY ? {
 const CE = "CE";
 const EXTRA_CE = "EXTRA_CE";
 
-const AUTHENTICATED_CE_BASE_URL = "https://judge0-ce.p.sulu.sh";
-const AUTHENTICATED_EXTRA_CE_BASE_URL = "https://judge0-extra-ce.p.sulu.sh";
+const AUTHENTICATED_CE_BASE_URL = "https://a0e8-2401-4900-4ddd-a7e5-cdc5-8875-3a05-6c7f.ngrok-free.app";
+const AUTHENTICATED_EXTRA_CE_BASE_URL = "https://a0e8-2401-4900-4ddd-a7e5-cdc5-8875-3a05-6c7f.ngrok-free.app";
 
 var AUTHENTICATED_BASE_URL = {};
 AUTHENTICATED_BASE_URL[CE] = AUTHENTICATED_CE_BASE_URL;
 AUTHENTICATED_BASE_URL[EXTRA_CE] = AUTHENTICATED_EXTRA_CE_BASE_URL;
 
-const UNAUTHENTICATED_CE_BASE_URL = "https://ce.judge0.com";
-const UNAUTHENTICATED_EXTRA_CE_BASE_URL = "https://extra-ce.judge0.com";
+const UNAUTHENTICATED_CE_BASE_URL = "https://a0e8-2401-4900-4ddd-a7e5-cdc5-8875-3a05-6c7f.ngrok-free.app";
+const UNAUTHENTICATED_EXTRA_CE_BASE_URL = "https://a0e8-2401-4900-4ddd-a7e5-cdc5-8875-3a05-6c7f.ngrok-free.app";
 
 var UNAUTHENTICATED_BASE_URL = {};
 UNAUTHENTICATED_BASE_URL[CE] = UNAUTHENTICATED_CE_BASE_URL;
