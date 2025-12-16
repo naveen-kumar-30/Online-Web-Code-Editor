@@ -1,4 +1,4 @@
-const API_KEY = ""; // Get yours at https://platform.sulu.sh/apis/judge0
+const API_KEY = ""; 
 
 const AUTH_HEADERS = API_KEY ? {
     "Authorization": `Bearer ${API_KEY}`
